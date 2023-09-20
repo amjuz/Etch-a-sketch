@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+    
+    gap: 2px;
+    width: 400px; /* Adjust the width to your preference */
+    height: 400px; 
+}
+.grid-square{
+    width: 100%;
+    height: 100%;
+    background-color: white; /* Adjust the background color as desired */
+    border: 1px solid #000;
+}
